@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- CLEARABLE EDIT TEXT -->
+    <declare-styleable name="ClearableEditTextAttrs">
+        <attr name="clearButtonDrawable" format="reference" />
+        <attr name="clearButtonAlwaysVisible" format="boolean" />
+    </declare-styleable>
+
+    <!-- TYPE FACE TEXT VIEW TYPES -->
+    <declare-styleable name="TypefaceViewAttrs">
+        <attr name="typeFace" format="string"/>
+    </declare-styleable>
+
+</resources>
