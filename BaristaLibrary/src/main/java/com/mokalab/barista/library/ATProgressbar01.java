@@ -13,10 +13,10 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TableLayout;
 
-import com.antoniotari.android.util.ATUtil;
-
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
+
+//import com.antoniotari.android.util.ATUtil;
 
 
 public class ATProgressbar01 extends LinearLayout implements Runnable {
@@ -315,7 +315,11 @@ public class ATProgressbar01 extends LinearLayout implements Runnable {
 				//imageView.setImageResource(getResourceIdFromName(getContext(),"drawable", images.get(nextImage - 1)));
 				if(_colors==null)
 				{
-					imageView.setImageResource(ATUtil.getResourceIdFromName(pbar.getContext(),"color", pbar.images.get(nextImage - 1)));
+					imageView.setImageResource(pbar.getContext().getResources().getIdentifier(
+                            pbar.images.get(nextImage - 1)
+                            ,"color",
+                            pbar.getContext().getPackageName()));
+                            //ATUtil.getResourceIdFromName(pbar.getContext(), "color", pbar.images.get(nextImage - 1)));
 				}
 				else
 				{
