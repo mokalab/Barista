@@ -15,5 +15,6 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        maven { url 'http://162.216.4.195/maven2' }
     }
 }
