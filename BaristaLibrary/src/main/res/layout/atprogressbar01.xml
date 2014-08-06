@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center" >
+
+    <ImageView
+        android:id="@+id/imgOne"
+        android:layout_width="@dimen/progress01_w"
+        android:layout_height="@dimen/progress01_h"
+        android:src="@color/MediumPurple"
+        android:tag="1" >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imgTwo"
+        android:layout_width="@dimen/progress01_w"
+        android:layout_height="@dimen/progress01_h"
+        android:layout_toRightOf="@id/imgOne"
+        android:src="@color/bluecool"
+        android:tag="2" >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imgThree"
+        android:layout_width="@dimen/progress01_w"
+        android:layout_height="@dimen/progress01_h"
+        android:layout_toRightOf="@id/imgTwo"
+        android:src="@color/Aquamarine"
+        android:tag="3" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/ProgressTextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imgThree"
+        android:layout_alignTop="@id/imgThree"
+        android:layout_toRightOf="@id/imgThree"
+        android:gravity="bottom"
+        android:text="" >
+    </TextView>
+
+</RelativeLayout>
