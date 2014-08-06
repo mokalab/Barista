@@ -1,4 +1,4 @@
-package com.mokalab.barista.library;
+package com.mokalab.barista.library.widget.progressBar;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -12,6 +12,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TableLayout;
+
+import com.mokalab.barista.library.R;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -317,7 +319,7 @@ public class ATProgressbar01 extends LinearLayout implements Runnable {
 				{
 					imageView.setImageResource(pbar.getContext().getResources().getIdentifier(
                             pbar.images.get(nextImage - 1)
-                            ,"color",
+                            , "color",
                             pbar.getContext().getPackageName()));
                             //ATUtil.getResourceIdFromName(pbar.getContext(), "color", pbar.images.get(nextImage - 1)));
 				}

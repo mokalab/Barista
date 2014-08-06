@@ -1,4 +1,4 @@
-package com.mokalab.barista.library;
+package com.mokalab.barista.library.widget.editText;
 
 /*******************************************************************************
  * Copyright 2014 MokaLab.
@@ -26,6 +26,8 @@ import android.view.View.OnFocusChangeListener;
 import android.view.View.OnTouchListener;
 import android.widget.EditText;
 
+import com.mokalab.barista.library.R;
+
 /**
  * This EditText will allow the user to clear it's text. It uses the compound drawables to accomplish this.
  *
@@ -38,7 +40,7 @@ import android.widget.EditText;
 public class ClearableEditText extends EditText implements OnTouchListener, OnFocusChangeListener {
 
     /**
-     * Use this interface to get a callback when the {@link com.mokalab.barista.library.ClearableEditText} clears the edit text
+     * Use this interface to get a callback when the {@link ClearableEditText} clears the edit text
      * field when the clear button is pressed.
      */
     public interface OnClearTextListener {

@@ -20,7 +20,7 @@ import android.content.Context;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 
-import com.mokalab.barista.library.ClearableEditText;
+import com.mokalab.barista.library.widget.editText.ClearableEditText;
 import com.mokalab.barista.library.R;
 import com.mokalab.butler.interfaces.ITypeFaceStyleable;
 import com.mokalab.butler.util.TypefaceHelper;
