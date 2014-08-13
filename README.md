@@ -1,7 +1,9 @@
 Barista
 =======
 
-== usage: ==
+**ATPtogressBar01**
+
+usage:<br>
 place the progress bar inside your xml:<br>
 ```xml
 <com.antoniotari.android.widget.progressbar.ATProgressbar01
