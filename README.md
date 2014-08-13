@@ -15,7 +15,7 @@ place the progress bar inside your xml:<br>
     android:text="@+id/ProgressTextView01" >
 </com.antoniotari.android.widget.progressbar.ATProgressbar01>
 ```
-<br>
+
 on your Activity or Fragment:<br>
 ```java
 protected ATProgressbar01 pBar;
@@ -23,20 +23,17 @@ pBar = (ATProgressbar01)findViewById(R.id.at_progressBar);
 pBar.startAnimation();
 ```
 
-<br>
 To stop the progress bar
 ```java
 if(pBar!=null){
     pBar.dismiss();
 }
 ```
-<br>
 onDestroy or onDestroyView, to clean the memory:<br>
 ```java
 pBar.clean();
 pBar=null;
 ```
-<br>
 The progress bar can be initialized with any color:<br>
 ```java
 pBar = (ATProgressbar01)rootView.findViewById(R.id.at_progressBar_1);
