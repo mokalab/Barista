@@ -4,7 +4,7 @@ Barista
 **ATPtogressBar01**
 
 usage:<br>
-place the progress bar inside your xml:<br>
+place the progress bar inside your xml layout:<br>
 ```xml
 <com.antoniotari.android.widget.progressbar.ATProgressbar01
     android:id="@+id/at_progressBar"
@@ -15,14 +15,12 @@ place the progress bar inside your xml:<br>
     android:text="@+id/ProgressTextView01" >
 </com.antoniotari.android.widget.progressbar.ATProgressbar01>
 ```
-
 on your Activity or Fragment:<br>
 ```java
 protected ATProgressbar01 pBar;
 pBar = (ATProgressbar01)findViewById(R.id.at_progressBar);
 pBar.startAnimation();
 ```
-
 To stop the progress bar
 ```java
 if(pBar!=null){
