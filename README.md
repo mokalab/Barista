@@ -1,5 +1,8 @@
 Barista
 =======
+TODO (@davidBcn proposals):  
+- Remove AT prefix :D I am jelous I don't have DF objects :D
+- TfButton --> TypeFaceButton ... I don't really like Tf
 
 **ATPtogressBar01**
 
